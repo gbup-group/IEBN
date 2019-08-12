@@ -13,6 +13,20 @@ Instance En-hancement Batch Normalization (IEBN) is an attention-based version o
 ## Requirement
 * Python 3.6 and [PyTorch 1.0](http://pytorch.org/)
 
+## Usage
+  ```
+python cifar.py -a iebn_resnet --dataset cifar100 --block-name bottleneck --depth 164 --epochs 164 --schedule 81 122 --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar100/resnet-164-iebn
+  ```
+
+## Results
+|                 | original |  IEBN  |
+|:---------------:|:--------:|:------:|
+|    ResNet164    |   74.29  |  77.09 |
+
+
+**Notes:**
+- Testing on **2*GPU**
+
 ## Citing IEBN
 
 ## Acknowledgments
