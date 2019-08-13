@@ -11,6 +11,7 @@ This repository is the implementation of "Instance Enhancement Batch Normalizati
 Instance Enhancement Batch Normalization (IEBN) is an attention-based version of BN which recalibrates channel information of BN by a simple linear transformation.
 
 <img src="https://github.com/gbup-group/IEBN/blob/master/figures/iebn.jpg" width="600" height="500">
+
 ## Requirement
 * Python 3.6 and [PyTorch 1.0](http://pytorch.org/)
 
