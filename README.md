@@ -5,10 +5,12 @@
 
 By [Senwei Liang*](https://leungsamwai.github.io), [Zhongzhan Huang*](https://github.com/dedekinds) (* contribute equally), [Mingfu Liang](https://github.com/wuyujack) and [Haizhao Yang](https://haizhaoyang.github.io/).
 
-This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org)  on CIFAR-100 dataset.
+This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org/abs/1908.04008)  on CIFAR-100 dataset.
 
 ## Introduction
-Instance En-hancement Batch Normalization (IEBN) is an attention-based version of BN which recalibrates channel information of BN by a simple linear transformation.
+Instance Enhancement Batch Normalization (IEBN) is an attention-based version of BN which recalibrates channel information of BN by a simple linear transformation.
+
+![image](https://github.com/gbup-group/IEBN/blob/master/figures/iebn.jpg)
 
 ## Requirement
 * Python 3.6 and [PyTorch 1.0](http://pytorch.org/)
@@ -25,7 +27,7 @@ python cifar.py -a iebn_resnet --dataset cifar100 --block-name bottleneck --dept
 
 
 **Notes:**
-- Testing on **2*GPU**
+- Training on 2 GPUs
 
 ## Citing IEBN
 
