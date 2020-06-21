@@ -5,7 +5,7 @@
 
 By [Senwei Liang*](https://leungsamwai.github.io), [Zhongzhan Huang*](https://github.com/dedekinds) (* contribute equally), [Mingfu Liang](https://github.com/wuyujack) and [Haizhao Yang](https://haizhaoyang.github.io/).
 
-This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org/abs/1908.04008)  on CIFAR-100 dataset. Our paper has been accepted for presentation at the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20). ([Paper ID 2627 and Full Accepted Papers List for justification](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf))
+This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org/abs/1908.04008)  on CIFAR-100 dataset. Our paper has been accepted for presentation at the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20).
 
 ## Introduction
 Instance Enhancement Batch Normalization (IEBN) is an attention-based version of BN which recalibrates channel information of BN by a simple linear transformation.
@@ -32,6 +32,16 @@ python cifar.py -a iebn_resnet --dataset cifar100 --block-name bottleneck --dept
 - Training on 2 GPUs
 
 ## Citing IEBN
+
+```
+@inproceedings{liang2020instance,
+  title={Instance Enhancement Batch Normalization: An Adaptive Regulator of Batch Noise.},
+  author={Liang, Senwei and Huang, Zhongzhan and Liang, Mingfu and Yang, Haizhao},
+  booktitle={AAAI},
+  pages={4819--4827},
+  year={2020}
+}
+```
 
 ## Acknowledgments
 Many thanks to [bearpaw](https://github.com/bearpaw) for his simple and clean [Pytorch framework](https://github.com/bearpaw/pytorch-classification) for image classification task.
