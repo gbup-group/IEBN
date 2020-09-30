@@ -5,7 +5,7 @@
 
 By [Senwei Liang*](https://leungsamwai.github.io), [Zhongzhan Huang*](https://github.com/dedekinds) (* contribute equally), [Mingfu Liang](https://github.com/wuyujack) and [Haizhao Yang](https://haizhaoyang.github.io/).
 
-This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org/abs/1908.04008)  on CIFAR-100 dataset. Our paper has been accepted for presentation at the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20).
+This repository is the implementation of "Instance Enhancement Batch Normalization: an Adaptive Regulator of Batch Noise" [[paper]](https://arxiv.org/abs/1908.04008)  on CIFAR-100 dataset. Our paper has been accepted for presentation at the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20). You can also check with the [AAAI proceeding version](https://aaai.org/ojs/index.php/AAAI/article/view/5917).
 
 ## Introduction
 Instance Enhancement Batch Normalization (IEBN) is an attention-based version of BN which recalibrates channel information of BN by a simple linear transformation.
